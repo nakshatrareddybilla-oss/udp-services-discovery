@@ -1,0 +1,5 @@
+Registry listening on UDP 5000
+[REGISTER] echo@10.0.0.3:6001
+[REGISTER] echo@10.0.0.2:6000
+[TIMEOUT] echo@10.0.0.3:6001 removed (server unavailable)
+[REGISTER] echo@10.0.0.3:6001

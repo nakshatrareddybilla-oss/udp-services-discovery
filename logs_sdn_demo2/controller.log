@@ -1,0 +1,17 @@
+loading app controller.py
+loading app ryu.controller.ofp_handler
+instantiating app controller.py of ServiceSDN
+instantiating app ryu.controller.ofp_handler of OFPHandler
+SERVICE TRAFFIC 10.0.0.3:45174 -> 10.0.0.1:5000
+SERVICE TRAFFIC 10.0.0.2:59113 -> 10.0.0.1:5000
+SERVICE TRAFFIC 10.0.0.4:47766 -> 10.0.0.1:5000
+SERVICE TRAFFIC 10.0.0.1:5000 -> 10.0.0.4:47766
+SERVICE TRAFFIC 10.0.0.4:37650 -> 10.0.0.1:5000
+SERVICE TRAFFIC 10.0.0.1:5000 -> 10.0.0.4:37650
+DROP unknown UDP port 7777: 10.0.0.4 -> 10.0.0.2
+BLOCK host 10.0.0.3 (drop rules installed)
+SERVICE TRAFFIC 10.0.0.4:57978 -> 10.0.0.1:5000
+SERVICE TRAFFIC 10.0.0.1:5000 -> 10.0.0.4:57978
+UNBLOCK host 10.0.0.3 (drop rules removed)
+SERVICE TRAFFIC 10.0.0.4:56725 -> 10.0.0.1:5000
+SERVICE TRAFFIC 10.0.0.1:5000 -> 10.0.0.4:56725
